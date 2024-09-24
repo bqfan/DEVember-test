@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "DEVember-test",
-    "slug": "DEVember-test",
+    "slug": "devember-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bqfan.devembertest",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29d864ce-f396-4401-9d02-7502bf900105"
+      }
     }
   }
 }
